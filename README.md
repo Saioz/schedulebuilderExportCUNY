@@ -33,10 +33,12 @@ Turn on developer mode at the top right of the page. [if applicable]
 
 click 'load unpacked'
 and select the file that you unzipped earlier.
+<img width="521" height="49" alt="Screenshot 2026-05-08 at 2 02 29 AM" src="https://github.com/user-attachments/assets/ed0e5f8a-95fe-45f4-b324-42f6ef601f36" />
 
 ## step 6
 
 enable the extension, visit schedulebuilder 
+<img width="205" height="71" alt="Screenshot 2026-05-08 at 2 03 34 AM" src="https://github.com/user-attachments/assets/ccfd82f4-1113-4c0a-8d3c-3ff4cb94bbfc" />
 
 ## step 6
 
