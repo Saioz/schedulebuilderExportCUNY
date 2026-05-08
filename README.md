@@ -35,6 +35,7 @@ login, select the semester you want to export
 look at the bottom right, click export, download and then open the file or upload it to calender. 
 
 
+<img width="1602" height="1082" alt="image" src="https://github.com/user-attachments/assets/6ffbab92-09e1-47e0-9af5-ccd39a7d0cfa" />
 
 
 
