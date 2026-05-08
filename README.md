@@ -13,11 +13,10 @@ unzip the file, you should see a folder now
 
 ## step 3
 
-go to 
-chrome://extensions/
-or
-brave://extensions/ 
-etc
+If you're using 
+[Chrome](chrome://extensions/)
+[brave](brave://extensions/)
+
 
 ## step 4
 
