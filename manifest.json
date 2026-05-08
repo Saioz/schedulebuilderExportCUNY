@@ -5,8 +5,7 @@
   "description": "Export your CUNY Schedule Builder classes to a .ics calendar file for Google Calendar, Apple Calendar, and Outlook.",
   "permissions": ["activeTab", "scripting"],
   "host_permissions": [
-    "https://*.cuny.edu/*",
-    "https://*.cunyfirst.cuny.edu/*"
+    "https://sb.cunyfirst.cuny.edu/*"
   ],
   "action": {
     "default_popup": "popup.html",
@@ -19,9 +18,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://*.cuny.edu/*",
-        "https://*.cunyfirst.cuny.edu/*",
-        "http://localhost/*"
+        "https://sb.cunyfirst.cuny.edu/*"
       ],
       "js": ["content.js"],
       "run_at": "document_idle"
