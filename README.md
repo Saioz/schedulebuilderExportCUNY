@@ -5,7 +5,7 @@ exports classes, dates & times for CUNY's schedulebuilder.
 
 ## step 1
 
-click the green button <code> and download as zip
+click the green button 'code' and download as zip
 
 ## step 2 
 
