@@ -41,7 +41,7 @@ and select the file that you unzipped earlier.
 ## step 6
 
 enable the extension, visit schedulebuilder 
-<img width="1588" height="1084" alt="image" src="https://github.com/user-attachments/assets/9a2e4eff-67bb-40fb-aa5e-2af9160f3db4" />
+<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/9a2e4eff-67bb-40fb-aa5e-2af9160f3db4" />
 
 
 ## step 6
