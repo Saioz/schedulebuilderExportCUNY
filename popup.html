@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CUNY Schedule Exporter</title>
+  <style>
+    /* ── Reset & base ─────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --navy:   #003366;
+      --blue:   #0057a8;
+      --accent: #f0a500;
+      --bg:     #f4f7fb;
+      --card:   #ffffff;
+      --text:   #1a2332;
+      --muted:  #5e7290;
+      --border: #d4dde8;
+      --green:  #1a8a4a;
+      --red:    #c0392b;
+      --radius: 10px;
+    }
+
+    body {
+      width: 320px;
+      background: var(--bg);
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      color: var(--text);
+      padding: 0;
+      overflow: hidden;
+    }
+
+    /* ── Header ───────────────────────────────────────────────── */
+    header {
+      background: var(--navy);
+      padding: 18px 20px 14px;
+      position: relative;
+      overflow: hidden;
+    }
+    header::after {
+      content: '';
+      position: absolute;
+      bottom: -20px; right: -20px;
+      width: 100px; height: 100px;
+      background: rgba(255,255,255,0.05);
+      border-radius: 50%;
+    }
+    .logo-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 4px;
+    }
+    .logo-icon {
+      width: 32px; height: 32px;
+      background: var(--accent);
+      border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px;
+      flex-shrink: 0;
+    }
+    header h1 {
+      font-size: 15px;
+      font-weight: 700;
+      color: #fff;
+      line-height: 1.2;
+    }
+    header p {
+      font-size: 11px;
+      color: rgba(255,255,255,0.65);
+      margin-top: 2px;
+    }
+
+    /* ── Body ─────────────────────────────────────────────────── */
+    .body {
+      padding: 16px;
+    }
+
+    /* Status card */
+    .status-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 12px 14px;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+    }
+    .status-icon {
+      font-size: 20px;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+    .status-text {
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+    .status-text strong {
+      color: var(--text);
+      font-size: 13px;
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    /* Export button */
+    .export-btn {
+      width: 100%;
+      padding: 13px 16px;
+      background: var(--navy);
+      color: #fff;
+      border: none;
+      border-radius: var(--radius);
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      letter-spacing: 0.3px;
+      transition: background 0.2s, transform 0.1s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+    .export-btn:hover { background: var(--blue); }
+    .export-btn:active { transform: scale(0.98); }
+    .export-btn:disabled {
+      background: var(--muted);
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    /* Result banner */
+    .result-banner {
+      border-radius: 8px;
+      padding: 10px 12px;
+      font-size: 12px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      display: none;
+      align-items: center;
+      gap: 8px;
+    }
+    .result-banner.success {
+      background: #e6f9ee;
+      border: 1px solid #a8dfc0;
+      color: var(--green);
+      display: flex;
+    }
+    .result-banner.error {
+      background: #fdecea;
+      border: 1px solid #f0b8b3;
+      color: var(--red);
+      display: flex;
+    }
+
+    /* Instructions */
+    .instructions {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 12px 14px;
+    }
+    .instructions h3 {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      margin-bottom: 8px;
+    }
+    .step {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      margin-bottom: 7px;
+    }
+    .step:last-child { margin-bottom: 0; }
+    .step-num {
+      width: 18px; height: 18px;
+      background: var(--navy);
+      color: #fff;
+      border-radius: 50%;
+      font-size: 10px;
+      font-weight: 700;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+    .step-text {
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.45;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 10px 16px 14px;
+      font-size: 10px;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo-row">
+      <div class="logo-icon">📅</div>
+      <div>
+        <h1>CUNY Schedule Exporter</h1>
+        <p>Convert your schedule to a calendar file</p>
+      </div>
+    </div>
+  </header>
+
+  <div class="body">
+
+    <!-- Page status -->
+    <div class="status-card">
+      <div class="status-icon" id="page-icon">🔍</div>
+      <div class="status-text">
+        <strong id="page-status">Checking page…</strong>
+        <span id="page-detail">Detecting CUNY Schedule Builder</span>
+      </div>
+    </div>
+
+    <!-- Result feedback -->
+    <div class="result-banner" id="result-banner">
+      <span id="result-icon">✅</span>
+      <span id="result-msg"></span>
+    </div>
+
+    <!-- Main button -->
+    <button class="export-btn" id="export-btn" disabled>
+      <span>📥</span>
+      <span>Export to Calendar (.ics)</span>
+    </button>
+
+    <!-- How-to -->
+    <div class="instructions">
+      <h3>How to use</h3>
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-text">Open CUNY Schedule Builder and search for your classes</div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-text">View your schedule results on the page</div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-text">Click <strong>Export to Calendar</strong> — a <code>schedule.ics</code> file will download</div>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <div class="step-text">Import the file into Google Calendar, Apple Calendar, or Outlook</div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>Works with Google Calendar · Apple Calendar · Outlook</footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>
