@@ -7,7 +7,7 @@ exports classes, dates & times for CUNY's schedulebuilder.
 
 click the green button 'code' and download as zip
 
-<img width="730" height="636" alt="image" src="https://github.com/user-attachments/assets/ae11945c-6ed0-4c45-8ad3-a9383e7e9a28" />
+<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/ae11945c-6ed0-4c45-8ad3-a9383e7e9a28" />
 
 
 ## step 2 
