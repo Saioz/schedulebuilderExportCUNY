@@ -18,9 +18,9 @@ unzip the file, you should see a folder now
 
 ## step 3
 Go to
-chrome://extensions/ OR 
-brave://extensions/ OR 
-whatever browser you're using
+chrome://extensions/ OR <br />
+brave://extensions/ OR <br />
+whatever browser you're using<br />
 <img width="248" height="37" alt="Screenshot 2026-05-08 at 2 00 54 AM" src="https://github.com/user-attachments/assets/d0b99177-ae49-4b61-9aae-bd0e142cbc8f" />
 
 
@@ -58,10 +58,10 @@ look at the bottom right, click export, download and then open the file or uploa
 
 
 
-Katriel katriel [DOT] morales [AT] jjay [DOT] cuny [DOT] edu  | 
-Anthony Lin  Anthony [DOT] lin [AT] jjay [DOT] cuny [DOT] edu      |
-Shadman Kayes Shadman [DOT] kayes [AT] jjay [DOT] cuny [DOT] edu   |
-Axel  axel [DOT] pichardomartinez [AT] jjay [DOT] cuny [DOT] edu |
+Katriel katriel [DOT] morales [AT] jjay [DOT] cuny [DOT] edu  <br />
+Anthony Lin  Anthony [DOT] lin [AT] jjay [DOT] cuny [DOT] edu     <br />
+Shadman Kayes Shadman [DOT] kayes [AT] jjay [DOT] cuny [DOT] edu   <br />
+Axel  axel [DOT] pichardomartinez [AT] jjay [DOT] cuny [DOT] edu <br />
 
 
 
