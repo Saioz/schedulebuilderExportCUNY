@@ -19,10 +19,14 @@ brave://extensions/
 
 ## step 4
 
+Turn on developer mode on the top right of the page
+
+## step 5
+
 click 'load unpacked'
 and select the file that you unzipped earlier.
 
-## step 5
+## step 6
 
 enable the extension, visit schedulebuilder 
 
