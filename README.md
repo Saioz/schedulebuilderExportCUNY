@@ -1,7 +1,7 @@
 # schedulebuilderExportCUNY
 exports classes, dates & times for CUNY's schedulebuilder. 
 
-# instructions
+# How to install the extension? (Takes 2 minutes) 
 
 ## step 1
 
