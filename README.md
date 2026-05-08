@@ -41,14 +41,15 @@ and select the file that you unzipped earlier.
 ## step 6
 
 enable the extension, visit schedulebuilder 
-<img width="205" height="71" alt="Screenshot 2026-05-08 at 2 03 34 AM" src="https://github.com/user-attachments/assets/ccfd82f4-1113-4c0a-8d3c-3ff4cb94bbfc" />
+<img width="1588" height="1084" alt="image" src="https://github.com/user-attachments/assets/9a2e4eff-67bb-40fb-aa5e-2af9160f3db4" />
+
 
 ## step 6
 
 login, select the semester you want to export
 look at the bottom right, click export, download and then open the file or upload it to calender. 
 
-<img width="1588" height="1084" alt="image" src="https://github.com/user-attachments/assets/9a2e4eff-67bb-40fb-aa5e-2af9160f3db4" />
+<img width="205" height="71" alt="Screenshot 2026-05-08 at 2 03 34 AM" src="https://github.com/user-attachments/assets/ccfd82f4-1113-4c0a-8d3c-3ff4cb94bbfc" />
 
 
 
