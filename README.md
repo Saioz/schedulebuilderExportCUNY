@@ -33,3 +33,18 @@ enable the extension, visit schedulebuilder
 
 login, select the semester you want to export
 look at the bottom right, click export, download and then open the file or upload it to calender. 
+
+
+
+# AI DISCLOSURE 
+
+## Developed via iterative AI-assisted workflows (openClaw, etc.).
+
+
+
+
+
+
+
+
+
