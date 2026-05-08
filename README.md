@@ -12,10 +12,9 @@ click the green button <code> and download as zip
 unzip the file, you should see a folder now
 
 ## step 3
-
-If you're using 
-[Chrome](chrome://extensions/)
-[brave](brave://extensions/)
+Go to
+chrome://extensions/
+brave://extensions/)
 
 
 ## step 4
