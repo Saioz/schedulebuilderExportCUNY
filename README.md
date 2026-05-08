@@ -13,6 +13,8 @@ click the green button 'code' and download as zip
 ## step 2 
 
 unzip the file, you should see a folder now
+<img width="521" height="49" alt="Screenshot 2026-05-08 at 2 02 29 AM" src="https://github.com/user-attachments/assets/ed0e5f8a-95fe-45f4-b324-42f6ef601f36" />
+
 
 ## step 3
 Go to
@@ -33,7 +35,8 @@ Turn on developer mode at the top right of the page. [if applicable]
 
 click 'load unpacked'
 and select the file that you unzipped earlier.
-<img width="521" height="49" alt="Screenshot 2026-05-08 at 2 02 29 AM" src="https://github.com/user-attachments/assets/ed0e5f8a-95fe-45f4-b324-42f6ef601f36" />
+<img width="487" height="25" alt="Screenshot 2026-05-08 at 2 04 30 AM" src="https://github.com/user-attachments/assets/c8e6da81-68ab-4aff-9e90-fcfcc11cab5e" />
+
 
 ## step 6
 
