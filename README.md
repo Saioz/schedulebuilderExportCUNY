@@ -14,7 +14,7 @@ unzip the file, you should see a folder now
 ## step 3
 Go to
 chrome://extensions/
-brave://extensions/)
+brave://extensions/
 
 
 ## step 4
