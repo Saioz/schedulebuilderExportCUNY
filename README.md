@@ -58,10 +58,10 @@ look at the bottom right, click export, download and then open the file or uploa
 
 
 
-Katriel katriel [DOT] morales [AT] jjay [DOT] cuny [DOT] edu  <br />
-Anthony Lin  Anthony [DOT] lin [AT] jjay [DOT] cuny [DOT] edu     <br />
-Shadman Kayes Shadman [DOT] kayes [AT] jjay [DOT] cuny [DOT] edu   <br />
-Axel  axel [DOT] pichardomartinez [AT] jjay [DOT] cuny [DOT] edu <br />
+Katriel Morales -- katriel [DOT] morales [AT] jjay [DOT] cuny [DOT] edu  <br /> 
+Anthony Lin  -- Anthony [DOT] lin [AT] jjay [DOT] cuny [DOT] edu     <br />
+Shadman Kayes -- Shadman [DOT] kayes [AT] jjay [DOT] cuny [DOT] edu   <br />
+Axel Pichardom -- axel [DOT] pichardomartinez [AT] jjay [DOT] cuny [DOT] edu <br />
 
 
 
