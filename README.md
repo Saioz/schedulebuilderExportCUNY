@@ -16,7 +16,6 @@ Go to
 chrome://extensions/
 brave://extensions/
 
-
 ## step 4
 
 Turn on developer mode on the top right of the page
