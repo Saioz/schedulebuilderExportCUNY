@@ -26,7 +26,7 @@ whatever browser you're using<br />
 
 ## step 4
 
-Turn on developer mode at the top right of the page. [if applicable]
+Turn on developer mode at the top right of the page.
 
 <img width="220" height="72" alt="Screenshot" src="https://github.com/user-attachments/assets/560135a1-6625-4171-abb7-a39e95e571e4" />
 
