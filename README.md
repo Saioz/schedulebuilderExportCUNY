@@ -17,7 +17,7 @@ unzip the file, you should see a folder now
 
 
 ## step 3
-Go to
+Go to <br />
 chrome://extensions/ OR <br />
 brave://extensions/ OR <br />
 whatever browser you're using<br />
